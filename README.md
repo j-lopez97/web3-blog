@@ -1,12 +1,18 @@
-# React + Vite
+# Sovereign Signal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized blog built on Ethereum using Vite, React, Tailwind and WalletConnect.
 
-Currently, two official plugins are available:
+I decided to create this so I can learn more about web3, blockchain, smart contracts, DeFi and other similar technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Thanks for being here and more to come.
 
-## Expanding the ESLint configuration
+## Features
+- Connect to MetaMask
+- Post to the blockchain (coming soon)
+- Decentralized, censorship-resistant content
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stack
+- React + Tailwind
+- Ethers.js
+- Hardhat (for smart contracts)
+- IPFS (coming soon)

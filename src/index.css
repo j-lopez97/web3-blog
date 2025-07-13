@@ -1,5 +1,45 @@
 @import "tailwindcss";
 
+@theme {
+
+  /* No-Face Black */
+
+  --color-noFace-100: #2c2c2c;
+  --color-noFace-500: #1b1b1b;
+  --color-noFace-900: #0a0a0a;
+
+  /* Spirit Gold */
+
+  --color-spiritGold-100: #f7e4b8;
+  --color-spiritGold-500: #d7a441;
+  --color-spiritGold-900: #8f6925;
+
+  /* Flesh Tone */
+
+  --color-flesh-100: #fcefe8;
+  --color-flesh-500: #f0d4c2;
+  --color-flesh-900: #b39787;
+
+  /* Moss Green */
+
+  --color-moss-100: #c7d3c1;
+  --color-moss-500: #718c66;
+  --color-moss-900: #3a4d34;
+
+  /* Bathhouse Red */
+
+  --color-bathRed-100: #d78a8a;
+  --color-bathRed-500: #8b2c2c;
+  --color-bathRed-900: #4d1010;
+
+  /* Fog White */
+
+  --color-fog-100: #ffffff;
+  --color-fog-500: #f5f5f0;
+  --color-fog-900: #cacac5;
+
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --font-sans:'Space Grotesk', sans-serif;
@@ -18,36 +58,28 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  color: #f7e4b8;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #8f6925;
 }
 
 body {
   
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #8f6925;
 }
 button:focus,
 button:focus-visible {
@@ -60,7 +92,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #8f6925;
   }
   button {
     background-color: #f9f9f9;
